@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const overlay = document.createElement('div');
     overlay.classList.add('header-overlay');
 
+    const logo = document.createElement('img');
+    logo.src = '/media/logo.png';
+    logo.alt = 'Seihai Sensou Logo';
+    logo.classList.add('header-logo');
+
     const title = document.createElement('h1');
     title.textContent = 'Seihai Sensou!';
     title.classList.add('header-title');
@@ -27,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     header.appendChild(video);
     header.appendChild(overlay);
+    header.appendChild(logo);
     header.appendChild(title);
     header.appendChild(subtitle);
     header.appendChild(button);
