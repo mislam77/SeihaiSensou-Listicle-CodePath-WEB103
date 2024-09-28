@@ -2,7 +2,7 @@
 
 Submitted by: **Md Wasiul Islam**
 
-About this web app: **Seihai Sensou! is a web application that showcases the legendary servants who participated in the 5th Holy Grail War in Fuyuki. This project is built using Express.js for the backend and Vite (Vanilla JS) for the frontend development.**
+About this web app: **Seihai Sensou! is a web application that showcases the legendary servants who participated in the 5th Holy Grail War in Fuyuki (Fate Stay/Night series). This project is built using Express.js for the backend and Vite (Vanilla JS) for the frontend development.**
 
 Time spent: **3-4** hours
 
