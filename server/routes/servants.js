@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:servantId', (req, res) => {
-    res.status(200).sendFile(path.resolve(__dirname, '../public/servant.html'));
+    res.status(200).sendFile(path.resolve(__dirname, '../../client/public/servant.html'));
 });
 
 export default router;
