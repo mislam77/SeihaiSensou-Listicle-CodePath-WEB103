@@ -25,7 +25,7 @@ const renderServants = async () => {
             bottomContainer.appendChild(description);
 
             const link = document.createElement('a');
-            link.textContent = 'Read More >';
+            link.textContent = 'View Details';
             link.setAttribute('role', 'button');
             link.href = `/servants/${servant.id}`;
             bottomContainer.appendChild(link);

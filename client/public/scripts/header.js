@@ -16,9 +16,20 @@ document.addEventListener("DOMContentLoaded", function() {
     title.textContent = 'Seihai Sensou!';
     title.classList.add('header-title');
 
+    const subtitle = document.createElement('p');
+    subtitle.textContent = 'Learn about the Legendary Servants of the 5th Holy Grail War in Fuyuki!';
+    subtitle.classList.add('header-subtitle');
+
+    const button = document.createElement('a');
+    button.textContent = 'All Servants';
+    button.href = '/';
+    button.classList.add('header-button');
+
     header.appendChild(video);
     header.appendChild(overlay);
     header.appendChild(title);
+    header.appendChild(subtitle);
+    header.appendChild(button);
 
     document.body.prepend(header);
 });
