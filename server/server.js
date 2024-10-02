@@ -1,4 +1,5 @@
 import express from 'express';
+import './config/dotenv.js';
 import servantsRouter from './routes/servants.js'
 
 const app = express();
