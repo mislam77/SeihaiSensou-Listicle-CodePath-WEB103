@@ -24,7 +24,7 @@ const renderServant = async () => {
         document.title = `Seihai Sensou - ${servant.truename}`;
     } else {
         const message = document.createElement('h2');
-        message.textContent = 'No Servants Available 😞';
+        message.textContent = 'Hmmm... You think there might be a secret servant, but there isn\'t.';
         servantContent.appendChild(message);
     }
 };
