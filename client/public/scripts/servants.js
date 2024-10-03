@@ -16,9 +16,9 @@ const renderServants = async () => {
             const bottomContainer = document.createElement('div');
             bottomContainer.classList.add('bottom-container');
 
-            const trueName = document.createElement('h3');
-            trueName.textContent = servant.trueName;
-            bottomContainer.appendChild(trueName);
+            const truename = document.createElement('h3');
+            truename.textContent = servant.truename;
+            bottomContainer.appendChild(truename);
 
             const description = document.createElement('p');
             description.textContent = servant.description;

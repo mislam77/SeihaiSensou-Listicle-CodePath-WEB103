@@ -1,8 +1,8 @@
 const servantData = [
     {
         "id": 1,
-        "masterName": "Shirou Emiya",
-        "trueName": "Artoria Pendragon",
+        "mastername": "Shirou Emiya",
+        "truename": "Artoria Pendragon",
         "class": "Saber",
         "image": "https://i.imgur.com/KIedqyS.png",
         "description": "The legendary King of Knights, wielding Excalibur.",
@@ -18,8 +18,8 @@ const servantData = [
     },
     {
         "id": 2,
-        "masterName": "Bazett Fraga McRemitz",
-        "trueName": "Cu Chulainn",
+        "mastername": "Bazett Fraga McRemitz",
+        "truename": "Cu Chulainn",
         "class": "Lancer",
         "image": "https://i.imgur.com/km6TzaW.png",
         "description": "The Child of Light, a hero from the Ulster Cycle of Irish mythology.",
@@ -35,8 +35,8 @@ const servantData = [
     },
     {
         "id": 3,
-        "masterName": "Rin Tohsaka",
-        "trueName": "Emiya",
+        "mastername": "Rin Tohsaka",
+        "truename": "Emiya",
         "class": "Archer",
         "image": "https://i.imgur.com/CJByGl7.png",
         "description": "A skilled archer with a mysterious past.",
@@ -52,8 +52,8 @@ const servantData = [
     },
     {
         "id": 4,
-        "masterName": "Sakura Matou",
-        "trueName": "Medusa",
+        "mastername": "Sakura Matou",
+        "truename": "Medusa",
         "class": "Rider",
         "image": "https://i.imgur.com/imm4bwE.png",
         "description": "The Gorgon of Greek mythology, known for her petrifying gaze.",
@@ -69,8 +69,8 @@ const servantData = [
     },
     {
         "id": 5,
-        "masterName": "Souichirou Kuzuki",
-        "trueName": "Medea",
+        "mastername": "Souichirou Kuzuki",
+        "truename": "Medea",
         "class": "Caster",
         "image": "https://i.imgur.com/5ThC0PV.png",
         "description": "The witch of Colchis, a powerful sorceress from Greek mythology.",
@@ -86,8 +86,8 @@ const servantData = [
     },
     {
         "id": 6,
-        "masterName": "Medea",
-        "trueName": "Sasaki Kojirou",
+        "mastername": "Medea",
+        "truename": "Sasaki Kojirou",
         "class": "Assassin",
         "image": "https://i.imgur.com/AbgZwAJ.png",
         "description": "A master swordsman known for his Tsubame Gaeshi technique.",
@@ -103,8 +103,8 @@ const servantData = [
     },
     {
         "id": 7,
-        "masterName": "Kirei Kotomine",
-        "trueName": "Hassan-i-Sabbah",
+        "mastername": "Kirei Kotomine",
+        "truename": "Hassan-i-Sabbah",
         "class": "Assassin",
         "image": "https://i.imgur.com/sj6FYgb.png",
         "description": "The legendary leader of the Hashshashin, master of stealth and assassination.",
@@ -120,8 +120,8 @@ const servantData = [
     },
     {
         "id": 8,
-        "masterName": "Illyasviel von Einzbern",
-        "trueName": "Heracles",
+        "mastername": "Illyasviel von Einzbern",
+        "truename": "Heracles",
         "class": "Berserker",
         "image": "https://i.imgur.com/UqdEdxz.png",
         "description": "The greatest hero in Greek mythology, driven mad by Hera.",
@@ -137,8 +137,8 @@ const servantData = [
     },
     {
         "id": 9,
-        "masterName": "None",
-        "trueName": "Gilgamesh",
+        "mastername": "None",
+        "truename": "Gilgamesh",
         "class": "Archer",
         "image": "https://i.imgur.com/TdNCoIA.png",
         "description": "The King of Heroes, possessing the greatest treasury of noble phantasms.",

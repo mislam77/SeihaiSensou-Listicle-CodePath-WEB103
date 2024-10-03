@@ -8,8 +8,8 @@ const renderServant = async () => {
 
     if (servant) {
         document.getElementById('image').src = servant.image;
-        document.getElementById('trueName').textContent = servant.trueName;
-        document.getElementById('masterName').textContent = 'Master: ' + servant.masterName;
+        document.getElementById('truename').textContent = servant.truename;
+        document.getElementById('mastername').textContent = 'Master: ' + servant.mastername;
         document.getElementById('class').textContent = 'Class: ' + servant.class;
         document.getElementById('height').textContent = 'Height: ' + servant.height;
         document.getElementById('weight').textContent = 'Weight: ' + servant.weight;
@@ -21,7 +21,7 @@ const renderServant = async () => {
         document.getElementById('luck').textContent = servant.luck;
         document.getElementById('np').textContent = servant.np;
         document.getElementById('description').textContent = servant.description;
-        document.title = `Seihai Sensou - ${servant.trueName}`;
+        document.title = `Seihai Sensou - ${servant.truename}`;
     } else {
         const message = document.createElement('h2');
         message.textContent = 'No Servants Available 😞';

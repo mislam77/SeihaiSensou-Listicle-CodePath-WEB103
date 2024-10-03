@@ -8,8 +8,8 @@ const createServantsTable = async () => {
 
         CREATE TABLE IF NOT EXISTS servants (
             id SERIAL PRIMARY KEY,
-            masterName VARCHAR(255) NOT NULL,
-            trueName VARCHAR(255) NOT NULL,
+            mastername VARCHAR(255) NOT NULL,
+            truename VARCHAR(255) NOT NULL,
             class VARCHAR(50) NOT NULL,
             image TEXT NOT NULL,
             description TEXT NOT NULL,
@@ -38,10 +38,10 @@ const seedServantsTable = async () => {
 
     for (const servant of servantData) {
         const insertQuery = {
-            text: 'INSERT INTO servants (masterName, trueName, class, image, description, height, weight, alignment, strength, endurance, agility, mana, luck, np) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)',
+            text: 'INSERT INTO servants (mastername, truename, class, image, description, height, weight, alignment, strength, endurance, agility, mana, luck, np) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)',
             values: [
-                servant.masterName,
-                servant.trueName,
+                servant.mastername,
+                servant.truename,
                 servant.class,
                 servant.image,
                 servant.description,
@@ -59,7 +59,7 @@ const seedServantsTable = async () => {
 
         try {
             await pool.query(insertQuery);
-            console.log(`✅ ${servant.trueName} added successfully`);
+            console.log(`✅ ${servant.truename} added successfully`);
         } catch (err) {
             console.error('⚠️ error inserting servant', err);
         }
